@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ismael & Feld — modern, distinct, timeless fashion and lifestyle.">
+  <title>Ismael & Feld — Modern. Distinct. Timeless.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ismael and Feld home">
+      <span class="monogram">I<span>&amp;</span>F</span>
+      <span class="brand-name">ISMAEL &amp; FELD</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#collection">Collection</a>
+      <a href="#story">Our Story</a>
+      <a href="#journal">Journal</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="bag" href="#collection">Shop</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ISMAEL &amp; FELD / EST. 2026</p>
+        <h1>Modern.<br><em>Distinct.</em><br>Timeless.</h1>
+        <p class="hero-text">A considered wardrobe for people who make an impression without asking for attention.</p>
+        <a class="button" href="#collection">Explore the collection</a>
+      </div>
+      <div class="hero-mark" aria-label="Ismael and Feld monogram">
+        <div class="large-monogram">I<span>&amp;</span>F</div>
+        <div class="hero-line"></div>
+        <p>FASHION / LIFESTYLE / ACCESSORIES</p>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <p class="eyebrow">THE HOUSE</p>
+      <h2>Quiet confidence,<br>carefully designed.</h2>
+      <p>Ismael &amp; Feld brings refined silhouettes, tactile materials and understated details together in a contemporary fashion language.</p>
+    </section>
+
+    <section id="collection" class="section collection">
+      <div class="section-head">
+        <div><p class="eyebrow">01 / COLLECTION</p><h2>Signature pieces</h2></div>
+        <span class="section-note">Launching soon</span>
+      </div>
+      <div class="product-grid">
+        <article class="product"><div class="product-art art-1"><span>I&amp;F</span></div><div class="product-info"><h3>The Feld Coat</h3><p>Structured wool / Charcoal</p><span class="price">Coming soon</span></div></article>
+        <article class="product"><div class="product-art art-2"><span>I&amp;F</span></div><div class="product-info"><h3>Ismael Essential Tee</h3><p>Premium cotton / Ivory</p><span class="price">Coming soon</span></div></article>
+        <article class="product"><div class="product-art art-3"><span>I&amp;F</span></div><div class="product-info"><h3>Signature Carryall</h3><p>Textured leather / Black</p><span class="price">Coming soon</span></div></article>
+      </div>
+    </section>
+
+    <section id="story" class="story section">
+      <div class="story-image"><img src="assets/brand-board.png" alt="Ismael & Feld brand identity presentation"></div>
+      <div class="story-copy"><p class="eyebrow">02 / OUR STORY</p><h2>Designed with intention.</h2><p>Ismael &amp; Feld is built around a simple idea: style should feel personal, enduring and effortless. Each piece begins with a strong silhouette and is finished with details that reward a closer look.</p><p>Our visual language pairs deep black, warm ivory and muted metallic tones with typography inspired by classic fashion houses and modern editorial design.</p><a class="text-link" href="#contact">Join the world of I&amp;F →</a></div>
+    </section>
+
+    <section id="journal" class="journal section">
+      <div class="section-head"><div><p class="eyebrow">03 / JOURNAL</p><h2>Notes from the house</h2></div></div>
+      <div class="journal-grid">
+        <article><span>01 — DESIGN</span><h3>The art of the everyday uniform</h3><p>Why the pieces we reach for most deserve the most thoughtful design.</p></article>
+        <article><span>02 — MATERIAL</span><h3>Texture, tone and restraint</h3><p>A closer look at the visual language behind our first collection.</p></article>
+        <article><span>03 — CULTURE</span><h3>Beyond the label</h3><p>Fashion as identity, expression and a way of moving through the world.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <p class="eyebrow">04 / CONTACT</p>
+      <h2>Be first to enter<br>the world of I&amp;F.</h2>
+      <p>Sign up for collection announcements, private previews and studio notes.</p>
+      <form id="signup-form"><input type="email" id="email" placeholder="Your email address" aria-label="Email address" required><button class="button" type="submit">Join us</button></form>
+      <p id="form-message" class="form-message" role="status"></p>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-brand"><span class="monogram">I<span>&amp;</span>F</span><span>ISMAEL &amp; FELD</span></div><p>© 2026 Ismael &amp; Feld. All rights reserved.</p><div><a href="#">Instagram</a><a href="#">TikTok</a><a href="#contact">Contact</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
